@@ -1,0 +1,16 @@
+{
+    "associatedOrgs": [],
+    "email": "",
+    "givenName": "",
+    "lastName": "",
+    "state": "",
+    "token": "",
+    "userId": "",
+    "isSignIn": false,
+    "role": "user",
+    "isAdmin": false,
+    "orgId": null,
+    "orgName": null,
+    "transactionLoader":false,
+    "trackId":""
+  }

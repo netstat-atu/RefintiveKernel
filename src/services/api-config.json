@@ -1,0 +1,19 @@
+{
+    "prod": false,
+    "stage": "dev",
+    "deploy": false,
+    "theodore_dev": "https://services.vayana.com/theodore/apis/v1",
+    "theodore_sandbox": "https://sandbox.services.vayananet.com/theodore/apis/v1",
+    "theodore_prod": "https://services.vayana.com/theodore/apis/v1",
+    "dev-sql-api": "https://a4be9fym72.execute-api.ap-south-1.amazonaws.com/dev",
+    "dev-bbps-api": "https://xi25bm0dyd.execute-api.ap-south-1.amazonaws.com/dev",
+    "sandbox-sql-api": "https://y8hag6779i.execute-api.ap-south-1.amazonaws.com/sandbox",
+    "sandbox-bbps-api": "https://ertty6s4z2.execute-api.ap-south-1.amazonaws.com/sandbox",
+    "prod-sql-api": "https://t5u9tlj3n2.execute-api.ap-south-1.amazonaws.com/prod",
+    "prod-bbps-api": "https://5yzyejtzcg.execute-api.ap-south-1.amazonaws.com/prod",
+    "dev-b2p-pay-api": "https://ftt7akyox9.execute-api.ap-south-1.amazonaws.com/dev",
+    "sandbox-b2p-pay-api": "https://n9l1ardx91.execute-api.ap-south-1.amazonaws.com/sandbox",
+    "prod-b2p-pay-api": "https://8bk6kflovk.execute-api.ap-south-1.amazonaws.com/prod",
+    "kotak_api": "https://vendortopaydev.azure-api.net/Bill2PayApi/api/Statement/KotakFileUpload",
+    "base": "https://vendortopaydev.azure-api.net/Bill2PayApi/api"
+}

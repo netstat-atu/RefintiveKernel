@@ -1,0 +1,80 @@
+export const excelTemplateName = excelName => excelName + "-" + new Date().toISOString().toUpperCase().replace('.', '') + '.xlsx'
+
+//User Side
+export const CONSUMER_LIST = "CONSUMER_LIST";
+
+export const AUTO_BILL_FETCH_REPORT = "AUTO_BILL_FETCH_REPORT";
+
+
+export const BILL_VERIFICATION = "BILL_VERIFICATION";
+export const PREPAID_BALANCE = "PREPAID_BALANCE";
+export const BILL_VERIFICATION_FAILED_LIST = "BILL_VERIFICATION_FAILED_LIST";
+export const BILL_VBMSID_FAILED_LIST = "BILL_VBMSID_FAILED_LIST";
+export const BILL_UPDATE_UTR_FAILED_LIST = "BILL_UPDATE_UTR_FAILED_LIST";
+
+export const BILL_CLEARANCE = "BILL_CLEARANCE"
+
+export const BILL_CLEARANCE_LIST = "BILL_CLEARANCE_LIST"
+export const BILL_CLEARANCE_ADMIN_LIST = "BILL_CLEARANCE_ADMIN_LIST"
+export const BATCH_DELETED_LIST = "BATCH_DELETED_LIST"
+
+export const BILL_REPORT = "BILL_REPORT";
+
+
+//Admin Side
+export const BILL_FETCH = "BILL_FETCH"
+export const BILL_FETCH_FAILED = "BILL_FETCH_FAILED"
+export const BILL_FETCH_SUCCESS = "BILL_FETCH_SUCCESS"
+export const BILL_STATUS = "BILL_STATUS"
+
+export const BILL_PAYMENT = "BILL_PAYMENT"
+
+//Template Excel Name
+
+export const CONSUMER_FAILED_SHEET = "CONSUMER_FAILED"
+export const CONSUMER_FAILED_EXCEL = excelTemplateName(CONSUMER_FAILED_SHEET)
+
+export const BULK_CONSUMER_SHEET = "BULK_CONSUMER"
+export const BULK_CONSUMER_EXCEL = excelTemplateName(BULK_CONSUMER_SHEET)
+
+export const BATCH_CREATION_TEMPLATE_SHEET = "BATCH_CREATION_TEMPLATE"
+
+export const BATCH_CREATION_TEMPLATE_EXCEL = excelTemplateName(BATCH_CREATION_TEMPLATE_SHEET)
+
+export const BULK_BILL_SHEET = "BULK_BILL"
+
+export const FAILED_BULK_SHEET = "FAILED_BULK_SHEET"
+export const FAILED_BULK_EXCEL = excelTemplateName(FAILED_BULK_SHEET)
+
+export const FETCH_BULK_BILL_SHEET = "FETCH_BULK_BILL"
+
+
+export const PDF_DATA_SHEET = "PDF_DATA_SHEET"
+export const PDF_DATA_EXCEL = excelTemplateName(PDF_DATA_SHEET)
+
+export const BULK_BILL_EXCEL = excelTemplateName(BULK_BILL_SHEET)
+export const FETCH_BULK_BILL_EXCEL = excelTemplateName(FETCH_BULK_BILL_SHEET)
+
+export const REVERSAL_BULK_BILL_SHEET = "REVERSAL_BULK_BILL";
+export const REVERSAL_BULK_BILL_EXCEL = excelTemplateName(REVERSAL_BULK_BILL_SHEET);
+
+export const PREPAID_BULK_BILL_SHEET = "PREPAID_BULK_BILL";
+export const PREPAID_BULK_BILL_EXCEL = excelTemplateName(PREPAID_BULK_BILL_SHEET);
+
+export const BULK_BILL = "BULK_BILL"
+
+export const PROCESS_BILL = "PROCESS_BILL";
+export const NOT_PROCESS_BILL = "NOT_PROCESS_BILL";
+export const PREPAID_BILL = "PREPAID_BILL";
+export const NON_FETCH_BILL = "NON_FETCH_BILL";
+export const URGENT_BILL = "URGENT_BILL";
+
+export const STATEMENT_LIST = "STATEMENT_LIST";
+
+
+//** Request Payment Bill */
+export const BILL_PAYMENT_REQUEST = "BILL_PAYMENT_REQUEST"
+export const PROCESS_REQ_BILL = "PROCESS_REQ_BILL";
+export const NOT_PROCESS_REQ_BILL = "NOT_PROCESS_REQ_BILL";
+export const PREPAID_REQ_BILL = "PREPAID_REQ_BILL";
+export const NON_FETCH_REQ_BILL = "NON_FETCH_REQ_BILL";

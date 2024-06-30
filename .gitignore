@@ -1,0 +1,92 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+.next/
+/out/
+
+# production
+/build
+.vscode/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+
+package-lock.json
+yarn.lock
+#amplify-do-not-edit-begin
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/logs
+amplify/mock-data
+amplify/backend/amplify-meta.json
+amplify/backend/.temp
+build/
+dist/
+node_modules/
+aws-exports.js
+awsconfiguration.json
+amplifyconfiguration.json
+amplifyconfiguration.dart
+amplify-build-config.json
+amplify-gradle-config.json
+amplifytools.xcconfig
+.secret-*
+**.sample
+#amplify-do-not-edit-end
+.next/build-manifest.json
+.next/trace
+.next/cache/webpack/client-development/0.pack
+.next/cache/webpack/client-development/1.pack
+.next/cache/webpack/client-development/2.pack
+.next/cache/webpack/client-development/3.pack
+.next/cache/webpack/client-development/4.pack
+.next/cache/webpack/client-development/6.pack
+.next/cache/webpack/client-development/10.pack
+.next/cache/webpack/client-development/index.pack
+.next/cache/webpack/client-development/index.pack.old
+.next/cache/webpack/server-development/1.pack
+.next/cache/webpack/server-development/2.pack
+.next/cache/webpack/server-development/index.pack
+.next/cache/webpack/server-development/index.pack.old
+.next/static/chunks/webpack.js
+.next/static/development/_buildManifest.js
+amplify/cli.json
+amplify/README.md
+amplify/backend/backend-config.json
+amplify/team-provider-info.json
+amplify/.config/project-config.json
+amplify/backend/tags.json
+amplify/backend/api/utilityportal/cli-inputs.json
+amplify/backend/api/utilityportal/parameters.json
+amplify/backend/api/utilityportal/schema.graphql
+amplify/backend/api/utilityportal/transform.conf.json
+amplify/backend/api/utilityportal/resolvers/README.md
+amplify/backend/api/utilityportal/stacks/CustomResources.json
+amplify/backend/types/amplify-dependent-resources-ref.d.ts
+amplify/hooks/README.md
+
+#Deployment Flags files
+# src/services/api-config.json
+# buildspec.yml
